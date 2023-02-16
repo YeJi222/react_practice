@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+import App from './App';
 import Library from './demo/example_parent';
 import Clock from './demo2(clock)/Clock'
 import CommentList from './demo3(comment)/CommentList'
+import Accomodate from './demo4(Hook)/Accommodate'
+import ConfirmButton from './demo5(event)/ConfirmButton'
 
-/*
+/* demo
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -16,7 +19,7 @@ root.render(
 );
 */
 
-/*
+/* demo2(clock)
 const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(() => {
   root.render(
@@ -28,10 +31,28 @@ setInterval(() => {
 }, 1000);
 */
 
+/* demo3(comment)
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <CommentList />
+  </React.StrictMode>
+);
+*/
+
+/*
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <Accomodate />
+  </React.StrictMode>
+);
+*/
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <ConfirmButton />
   </React.StrictMode>
 );
 
