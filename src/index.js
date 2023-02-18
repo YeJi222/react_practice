@@ -9,6 +9,8 @@ import Clock from './demo2(clock)/Clock'
 import CommentList from './demo3(comment)/CommentList'
 import Accomodate from './demo4(Hook)/Accommodate'
 import ConfirmButton from './demo5(event)/ConfirmButton'
+import LandingPage from './demo6(inline)/LandingPage';
+import AttendanceBook from './demo7(list_key)/AttendanceBook';
 
 /* demo
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -40,7 +42,7 @@ root.render(
 );
 */
 
-/*
+/* demo4(Hook)
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -49,13 +51,30 @@ root.render(
 );
 */
 
+/* demo5(event)
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <ConfirmButton />
   </React.StrictMode>
 );
+*/
 
+/* demo6(inline)
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <LandingPage />
+  </React.StrictMode>
+);
+*/
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <AttendanceBook />
+  </React.StrictMode>
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
