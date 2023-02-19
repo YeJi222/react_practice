@@ -11,6 +11,7 @@ import Accomodate from './demo4(Hook)/Accommodate'
 import ConfirmButton from './demo5(event)/ConfirmButton'
 import LandingPage from './demo6(inline)/LandingPage';
 import AttendanceBook from './demo7(list_key)/AttendanceBook';
+import Calculator from './demo8(shared_state)/Calculator';
 
 /* demo
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -69,10 +70,20 @@ root.render(
 );
 */
 
+/* demo7(list_key) 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <AttendanceBook />
+  </React.StrictMode>
+);
+*/
+
+/* demo8(shared_state) */
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <Calculator />
   </React.StrictMode>
 );
 
