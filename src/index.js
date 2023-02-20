@@ -13,6 +13,7 @@ import LandingPage from './demo6(inline)/LandingPage';
 import AttendanceBook from './demo7(list_key)/AttendanceBook';
 import Calculator from './demo8(shared_state)/Calculator';
 import ProfileCard from './demo9(composition_inheritance)/ProfileCard';
+import DarkOrLight from './demo10(Context)/DarkOrLight';
 
 /* demo
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -89,11 +90,20 @@ root.render(
 );
 */
 
-/* demo9(composition_inheritance) */
+/* demo9(composition_inheritance) 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <ProfileCard />
+  </React.StrictMode>
+);
+*/
+
+/* demo10(Context) */
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <DarkOrLight />
   </React.StrictMode>
 );
 
