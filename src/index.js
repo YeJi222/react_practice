@@ -14,6 +14,7 @@ import AttendanceBook from './demo7(list_key)/AttendanceBook';
 import Calculator from './demo8(shared_state)/Calculator';
 import ProfileCard from './demo9(composition_inheritance)/ProfileCard';
 import DarkOrLight from './demo10(Context)/DarkOrLight';
+import Blocks from './demo11(style)/Blocks';
 
 /* demo
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -99,11 +100,20 @@ root.render(
 );
 */
 
-/* demo10(Context) */
+/* demo10(Context) 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <DarkOrLight />
+  </React.StrictMode>
+);
+*/
+
+/* demo11(style) */
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <Blocks />
   </React.StrictMode>
 );
 
